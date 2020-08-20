@@ -1,0 +1,280 @@
+/* GLOBALS */
+
+
+/* Style Sheet */
+
+
+/* GLOBALS */
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #fff;
+
+    /* 1rem = 10px */
+    
+    font-size: 1.6rem;
+    width: 100%;
+    margin: 0 auto;
+    font-family: georgia,'times new roman',times,serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1{
+    margin: 16px 370px 16px 370px;
+}
+h2 {
+    color: #333;
+    padding-top: 1.6rem;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #333;
+}
+
+h4{
+    margin: 0;
+}
+
+p{
+    font-size: 20px;
+    color: #333;
+}
+
+p a{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(50, 104, 145);
+}
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.blue-btn{
+    color: #fff;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-color: rgb(86, 123, 149);
+    /* border-color: 1px solid rgb(50, 104, 145); */
+    border-radius: 3px;
+    letter-spacing: .05em;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Header */
+
+header {
+    border-bottom: .1rem solid #e2e2e2;
+}
+
+header, .h-left {
+   justify-content: space-between;
+   margin: 0 1.5rem;
+   align-items: center;
+}
+
+header div a {
+    font-weight: 700;
+    color: #000;
+}
+
+.h-left i {
+    padding: 0.8rem;
+}
+
+/* Here begins the body styling */
+
+.hero{
+    margin: 25px 200px 43px 200px;
+}
+
+#hero-img{
+    width: 945px;
+    height: 550px;
+}
+
+.hero-img-desc{
+    font-size: 15px;
+    color: #666;
+}
+
+.hero-img-caption{
+    font-size: 13px;
+    color: #888;
+}
+
+.article-box{
+    margin: 0 auto;
+}
+
+.author-info{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.date-info{
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.share-icons{
+    background-color: #eee;
+    border-radius: 100%;
+    padding: 8px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.share-icons2{
+    margin: 0 5px;
+}
+
+.left-space, aside {
+    width: 25%;
+}
+
+.article-container {
+    width: 50%;
+}
+
+.subscrib-call {
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.subscrib-call hr {
+    width: 5rem;
+}
+
+.subscrib-call h3{
+    margin-bottom: 0.2rem;
+}
+
+.subscrib-call a {
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.subscrib-call .b-hr {
+    margin-top: 1.7rem;
+}
+
+aside {
+    align-self: center;
+    padding: 0 6rem;
+}
+
+#picks-title{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.single-pick{
+    justify-content: space-between;
+    padding-bottom: 15px;
+ }
+
+.single-pick div img{
+   max-width: 75px !important;
+   height: 75px;
+}
+
+.single-pick p {
+    font-size: 1.2rem;
+    margin: 0;
+    margin: 0 0 0 15px;
+}
+
+.single-pick a{
+    font-size: 14px;
+    color: rgb(51, 51, 51);
+    text-decoration: none;
+}
+
+.single-pick a:hover{
+    text-decoration: underline;
+}
+
+.single-pick h4{
+    padding-left: 15px;
+}
+
+.single-pick2{
+    position: relative;
+    background-color: #f6f6f6;
+    padding: 11px 22px 11px 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    right: 11px;
+}
+
+.single-pick2 h4{
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.single-pick2 p{
+    font-size: 12px;
+    color: #121212;
+    line-height: 15px;
+}
+
+#inflation-grid{
+    max-width: 945px;   
+    margin: auto;
+}
+
+#inflation-grid h2{
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    padding: 0;
+}
+
+.infl-grid-att{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.infl-grid-att p{
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.g-sc{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
